@@ -1654,6 +1654,9 @@
             <name>$PROJ_DIR$\libraries\inc\stm8l15x_conf.h</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\libraries\inc\stm8l15x_exti.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\libraries\inc\stm8l15x_gpio.h</name>
         </file>
         <file>
@@ -1682,6 +1685,9 @@
         </file>
         <file>
             <name>$PROJ_DIR$\libraries\src\stm8l15x_clk.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\libraries\src\stm8l15x_exti.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\libraries\src\stm8l15x_gpio.c</name>

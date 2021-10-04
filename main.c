@@ -2,19 +2,15 @@
 #include "lora.h"
 #include "math.h"
 
-//#define LORA_MISO_pin GPIO_Pin_7
-//#define LORA_MOSI_pin GPIO_Pin_6
-//#define LORA_SCK_pin GPIO_Pin_5
-//#define LORA_NSS_pin GPIO_Pin_4
-//#define LORA_RESET_pin GPIO_Pin_3
-//#define LORA_DIO0_pin GPIO_Pin_2
-//#define LORA_PORT GPIOB
-//#define LORA_SPI SPI1
+//Joystick defines
+//----------------  
 #define Joystick_ADC ADC1
 #define Joystick_Y_Left ADC_Channel_5
 #define Joystick_X_Left ADC_Channel_6
 #define Joystick_X_Right ADC_Channel_7
 #define Joystick_Y_Right ADC_Channel_8
+#define Joystick_Right_Button GPIO_Pin_5
+#define Joystick_Left_Button GPIO_Pin_0
 
 //Joystick variables
 //----------------  
@@ -27,6 +23,10 @@ uint16_t axisX_Right;
 //---------------- 
 static void joystick_cmd(LoRa *obj);
 
+//LoRa structure instance
+//---------------- 
+LoRa LoRa_transmitter;
+
 int main( void )
 {
   //CLK Conf
@@ -37,8 +37,14 @@ int main( void )
   CLK_SYSCLKSourceSwitchCmd(DISABLE);
   CLK_RTCClockConfig(CLK_RTCCLKSource_LSI, CLK_RTCCLKDiv_1);
   
-  GPIO_Init(GPIOA, GPIO_Pin_4, GPIO_Mode_Out_PP_High_Fast); //NSS and RESET LoRa pin's
-  GPIO_ExternalPullUpConfig(GPIOA, GPIO_Pin_4, ENABLE);
+  //Joystick GPIO Conf
+  //----------------
+  GPIO_Init(GPIOA, GPIO_Pin_4, GPIO_Mode_Out_PP_High_Fast); //to pull up for joystic
+  GPIO_ExternalPullUpConfig(GPIOA, GPIO_Pin_4, ENABLE); //to pull up for joystick
+  GPIO_Init(GPIOC, Joystick_Left_Button, GPIO_Mode_In_FL_IT); //button left
+  GPIO_Init(GPIOD, Joystick_Right_Button, GPIO_Mode_In_FL_IT); //button right
+  EXTI_SetPinSensitivity(EXTI_Pin_0, EXTI_Trigger_Rising); //Interrupt on the time push button
+  EXTI_SetPinSensitivity(EXTI_Pin_5, EXTI_Trigger_Rising); //Interrupt on the time push button
   
   //LoRa GPIO Conf
   //----------------
@@ -47,6 +53,7 @@ int main( void )
   //SPI CLK Conf
   //----------------
   CLK_PeripheralClockConfig(CLK_Peripheral_SPI1, ENABLE);  
+  
   //ADC CLK Conf
   //----------------
   CLK_PeripheralClockConfig(CLK_Peripheral_ADC1, ENABLE);
@@ -67,6 +74,7 @@ int main( void )
            SPI_Direction_2Lines_FullDuplex, 
            SPI_NSS_Soft, 
            0x07);
+  
   //ADC Conf
   //----------------
   ADC_DeInit(ADC1);
@@ -78,13 +86,13 @@ int main( void )
   //SPI start
   //----------------
   SPI_Cmd(LORA_SPI, ENABLE);
+  
   //ADC start
   //----------------
   ADC_Cmd(Joystick_ADC, ENABLE);
     
   //LoRa start init
   //----------------
-  LoRa LoRa_transmitter;
   LoRa_transmitter = newLoRa();
   LoRa_transmitter.overCurrentProtection = 120;
   LoRa_transmitter.preamble = 10;
@@ -99,6 +107,8 @@ int main( void )
     GPIO_Init(GPIOC, GPIO_Pin_7, GPIO_Mode_Out_PP_High_Fast);
     return 0;
   }
+  
+  enableInterrupts();
   
   while(1) {
     //Y axis left

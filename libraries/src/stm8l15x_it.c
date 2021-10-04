@@ -29,14 +29,17 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm8l15x_it.h"
 
+#include "lora.h"
 /** @addtogroup STM8L15x_StdPeriph_Template
   * @{
   */
 	
 /* Private typedef -----------------------------------------------------------*/
+extern LoRa LoRa_transmitter;
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
+uint8_t data_cmd[2];
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
 /* Public functions ----------------------------------------------------------*/
@@ -160,6 +163,10 @@ INTERRUPT_HANDLER(EXTI0_IRQHandler,8)
     /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
+  data_cmd[0] = 1;
+  data_cmd[1] = 5;
+  LoRa_transmit(&LoRa_transmitter, data_cmd, 2, 50);
+  EXTI_ClearITPendingBit(EXTI_IT_Pin0);
 }
 
 /**
@@ -220,6 +227,10 @@ INTERRUPT_HANDLER(EXTI5_IRQHandler,13)
     /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
+  data_cmd[0] = 1;
+  data_cmd[1] = 5;
+  LoRa_transmit(&LoRa_transmitter, data_cmd, 2, 50);
+  EXTI_ClearITPendingBit(EXTI_IT_Pin5);
 }
 
 /**

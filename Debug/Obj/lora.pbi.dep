@@ -5,6 +5,7 @@ lora.pbi: C:\Work\Projects\remote\libraries\lora\lora.c \
   C:\Work\Projects\remote\libraries\inc/stm8l15x_conf.h \
   C:\Work\Projects\remote\libraries\inc/stm8l15x_adc.h \
   C:\Work\Projects\remote\libraries\inc/stm8l15x_clk.h \
+  C:\Work\Projects\remote\libraries\inc/stm8l15x_exti.h \
   C:\Work\Projects\remote\libraries\inc/stm8l15x_gpio.h \
   C:\Work\Projects\remote\libraries\inc/stm8l15x_spi.h \
   C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \

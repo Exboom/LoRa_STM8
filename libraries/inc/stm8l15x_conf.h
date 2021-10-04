@@ -40,7 +40,7 @@
 //#include "stm8l15x_comp.h"
 //#include "stm8l15x_dac.h"
 //#include "stm8l15x_dma.h"
-//#include "stm8l15x_exti.h"
+#include "stm8l15x_exti.h"
 //#include "stm8l15x_flash.h"
 #include "stm8l15x_gpio.h"
 //#include "stm8l15x_i2c.h"

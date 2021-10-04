@@ -24,13 +24,14 @@ build lora.pbi : index lora.xcl
 build delay.pbi : index delay.xcl
 build stm8l15x_adc.pbi : index stm8l15x_adc.xcl
 build stm8l15x_clk.pbi : index stm8l15x_clk.xcl
+build stm8l15x_exti.pbi : index stm8l15x_exti.xcl
 build stm8l15x_gpio.pbi : index stm8l15x_gpio.xcl
 build stm8l15x_it.pbi : index stm8l15x_it.xcl
 build stm8l15x_spi.pbi : index stm8l15x_spi.xcl
 build main.pbi : index main.xcl
 build remote_part0.pbi : link lora.pbi delay.pbi stm8l15x_adc.pbi
-build remote_part1.pbi : link stm8l15x_clk.pbi stm8l15x_gpio.pbi stm8l15x_it.pbi
-build remote_part2.pbi : link stm8l15x_spi.pbi main.pbi
+build remote_part1.pbi : link stm8l15x_clk.pbi stm8l15x_exti.pbi stm8l15x_gpio.pbi
+build remote_part2.pbi : link stm8l15x_it.pbi stm8l15x_spi.pbi main.pbi
 build remote.pbd : link remote_part0.pbi remote_part1.pbi remote_part2.pbi
 build remote.pbw : browsedata remote.pbd
 

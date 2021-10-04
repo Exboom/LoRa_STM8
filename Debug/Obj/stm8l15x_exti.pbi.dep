@@ -1,5 +1,5 @@
-stm8l15x_spi.pbi: C:\Work\Projects\remote\libraries\src\stm8l15x_spi.c \
-  C:\Work\Projects\remote\libraries\inc\stm8l15x_spi.h \
+stm8l15x_exti.pbi: C:\Work\Projects\remote\libraries\src\stm8l15x_exti.c \
+  C:\Work\Projects\remote\libraries\inc\stm8l15x_exti.h \
   C:\Work\Projects\remote\libraries\inc/stm8l15x.h \
   C:\Work\Projects\remote\libraries\inc/stm8l15x_conf.h \
   C:\Work\Projects\remote\libraries\inc/stm8l15x_adc.h \

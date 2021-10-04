@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>1256117824</fileChecksum>
+    <fileChecksum>855429603</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
@@ -53,6 +53,8 @@
             <file>$PROJ_DIR$\Debug\Obj\stm8l15x_clk.o</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8l15x_adc.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\stm8l15x_it.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.__cstat.et</file>
+            <file>$PROJ_DIR$\libraries\inc\stm8l15x_exti.h</file>
             <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
             <file>$TOOLKIT_DIR$\inc\c\math.h</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
@@ -63,6 +65,9 @@
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
             <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.o</file>
+            <file>$PROJ_DIR$\libraries\src\stm8l15x_exti.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8l15x_exti.xcl</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
@@ -92,7 +97,7 @@
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 3 11 6 7 10 9 0 25 1</file>
+                    <file> 3 11 6 7 10 9 49 0 25 1</file>
                 </tool>
             </inputs>
         </file>
@@ -115,7 +120,7 @@
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 9 6 7 10 11 0 25</file>
+                    <file> 9 6 7 10 49 11 0 25</file>
                 </tool>
             </inputs>
         </file>
@@ -138,7 +143,7 @@
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 10 6 7 9 11 0 25</file>
+                    <file> 10 6 7 9 49 11 0 25</file>
                 </tool>
             </inputs>
         </file>
@@ -161,7 +166,7 @@
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 9 6 7 10 11 0 25</file>
+                    <file> 9 6 7 10 49 11 0 25</file>
                 </tool>
             </inputs>
         </file>
@@ -184,7 +189,7 @@
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 6 7 10 9 11 0 25 3 1 49 55 48 50 51 57 52 53 56 54</file>
+                    <file> 6 7 10 9 49 11 0 25 3 1 51 57 50 52 53 59 54 55 58 56</file>
                 </tool>
             </inputs>
         </file>
@@ -207,7 +212,7 @@
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 0 6 7 10 9 11 25</file>
+                    <file> 0 6 7 10 9 49 11 25</file>
                 </tool>
             </inputs>
         </file>
@@ -230,7 +235,7 @@
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 8 6 7 10 9 11 0 25</file>
+                    <file> 8 6 7 10 9 49 11 0 25 3 1</file>
                 </tool>
             </inputs>
         </file>
@@ -245,7 +250,7 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 20 16 44 41 32 45 13 12 17 39 30</file>
+                    <file> 20 16 44 41 32 45 60 13 12 17 39 30</file>
                 </tool>
             </inputs>
         </file>
@@ -268,7 +273,30 @@
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 11 6 7 10 9 0 25</file>
+                    <file> 11 6 7 10 9 49 0 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\libraries\src\stm8l15x_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 49 6 7 10 9 11 0 25</file>
                 </tool>
             </inputs>
         </file>
