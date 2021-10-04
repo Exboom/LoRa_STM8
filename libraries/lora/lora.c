@@ -283,10 +283,10 @@ uint8_t LoRa_read(uint8_t address) {
         SPI_SendData(LORA_SPI, data_addr);
         while ((SPI1->SR & SPI_FLAG_RXNE) == RESET);
         read_data = SPI_ReceiveData(LORA_SPI);
-//        while ((SPI1->SR & SPI_FLAG_TXE) == RESET);
-//        SPI1->DR = data_addr;
-//        while ((SPI1->SR & SPI_FLAG_RXNE) == RESET);
-//        read_data = SPI1->DR;
+        while ((SPI1->SR & SPI_FLAG_TXE) == RESET);
+        SPI_SendData(LORA_SPI, 0xFF);
+        while ((SPI1->SR & SPI_FLAG_RXNE) == RESET);
+        read_data = SPI_ReceiveData(LORA_SPI);
         
         GPIO_SetBits(LORA_PORT, LORA_NSS_pin);
         
@@ -314,16 +314,12 @@ void LoRa_write(uint8_t address, uint8_t value) {
         
         while ((SPI1->SR & SPI_FLAG_TXE) == RESET);
 	SPI_SendData(LORA_SPI, addr);
-	while ((SPI1->SR & SPI_FLAG_TXE) == RESET);
-	SPI_SendData(LORA_SPI, data);
-//        while ((SPI1->SR & SPI_FLAG_TXE) == RESET);
-//        SPI1->DR = addr;
-//        while ((SPI1->SR & SPI_FLAG_RXNE) == RESET);
-//        resp = SPI1->DR;
-//        while ((SPI1->SR & SPI_FLAG_TXE) == RESET);
-//        SPI1->DR = data;
-//        while ((SPI1->SR & SPI_FLAG_RXNE) == RESET);
-//        resp = SPI1->DR;
+        while ((SPI1->SR & SPI_FLAG_RXNE) == RESET);
+        resp = SPI_ReceiveData(LORA_SPI);
+        while ((SPI1->SR & SPI_FLAG_TXE) == RESET);
+        SPI_SendData(LORA_SPI, data);
+        while ((SPI1->SR & SPI_FLAG_RXNE) == RESET);
+        resp = SPI_ReceiveData(LORA_SPI);
         
 	GPIO_SetBits(LORA_PORT, LORA_NSS_pin);
 }
@@ -343,14 +339,6 @@ void LoRa_BurstWrite(uint8_t address, uint8_t *value) {
 
 	//NSS = 1
         GPIO_ResetBits(LORA_PORT, LORA_NSS_pin);
-        
-//	//say module thai I want to write in RegFiFo
-//	SPI_SendData(obj->hSPIx, addr);
-//	while (SPI_GetFlagStatus(obj->hSPIx, SPI_FLAG_BSY) == SET);
-//	//Write data in FiFo
-//        SPI_SendData(obj->hSPIx, *value);
-//        while (SPI_GetFlagStatus(obj->hSPIx, SPI_FLAG_BSY) == SET);
-	
         //say module thai I want to write in RegFiFo
         while ((SPI1->SR & SPI_FLAG_TXE) == RESET);
         SPI1->DR = addr;
