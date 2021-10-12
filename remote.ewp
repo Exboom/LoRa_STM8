@@ -834,7 +834,7 @@
                 <debug>0</debug>
                 <option>
                     <name>GenDeviceSelectMenu</name>
-                    <state></state>
+                    <state>STM8L152C6	STM8L152C6</state>
                 </option>
                 <option>
                     <name>GenCodeModel</name>
@@ -874,11 +874,11 @@
                 </option>
                 <option>
                     <name>GenRTDescription</name>
-                    <state></state>
+                    <state>Use the normal configuration of the C/EC++ runtime library. No locale interface, C locale, no file descriptor support, no multibytes in printf and scanf, and no hex floats in strtod.</state>
                 </option>
                 <option>
                     <name>GenRTConfigPath</name>
-                    <state></state>
+                    <state>$TOOLKIT_DIR$\LIB\dlstm8smn.h</state>
                 </option>
                 <option>
                     <name>GenLibInFormatter</name>
@@ -887,7 +887,7 @@
                 </option>
                 <option>
                     <name>GenLibInFormatterDescription</name>
-                    <state></state>
+                    <state>Full formatting, without multibytes.</state>
                 </option>
                 <option>
                     <name>GenLibOutFormatter</name>
@@ -896,15 +896,15 @@
                 </option>
                 <option>
                     <name>GenLibOutFormatterDescription</name>
-                    <state></state>
+                    <state>Full formatting, without multibytes.</state>
                 </option>
                 <option>
                     <name>GenStackSize</name>
-                    <state>###Uninitialized###</state>
+                    <state>0x100</state>
                 </option>
                 <option>
                     <name>GenHeapSize</name>
-                    <state>###Uninitialized###</state>
+                    <state>0x100</state>
                 </option>
                 <option>
                     <name>GeneralEnableMisra</name>
@@ -935,7 +935,7 @@
                 </option>
                 <option>
                     <name>GenMathFunctionDescription</name>
-                    <state></state>
+                    <state>Default variants of cos, sin, tan, log, log10, pow, and exp.</state>
                 </option>
             </data>
         </settings>
@@ -973,20 +973,20 @@
                 </option>
                 <option>
                     <name>IccOptLevelSlave</name>
-                    <state>1</state>
+                    <state>3</state>
                 </option>
                 <option>
                     <name>IccOptAllowList</name>
                     <version>0</version>
-                    <state>111110</state>
+                    <state>111111</state>
                 </option>
                 <option>
                     <name>IccGenerateDebugInfo</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>IccOutputFile</name>
-                    <state></state>
+                    <state>$FILE_BNAME$.o</state>
                 </option>
                 <option>
                     <name>IccCodeModel</name>
@@ -1074,7 +1074,9 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state></state>
+                    <state>C:\Work\Projects\remote\libraries\inc</state>
+                    <state>C:\Work\Projects\remote\libraries\src</state>
+                    <state>C:\Work\Projects\remote\libraries\lora</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -1305,7 +1307,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state></state>
+                    <state>remote.srec</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -1360,7 +1362,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>###Unitialized###</state>
+                    <state>remote.out</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -1424,7 +1426,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>lnk0t.icf</state>
+                    <state>$TOOLKIT_DIR$\config\lnkstm8l152c6.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -1488,7 +1490,7 @@
                 </option>
                 <option>
                     <name>IlinkProgramEntryLabel</name>
-                    <state></state>
+                    <state>__iar_program_start</state>
                 </option>
                 <option>
                     <name>DoFill</name>
@@ -1654,6 +1656,9 @@
             <name>$PROJ_DIR$\libraries\inc\stm8l15x_conf.h</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\libraries\inc\stm8l15x_dma.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\libraries\inc\stm8l15x_exti.h</name>
         </file>
         <file>
@@ -1661,6 +1666,9 @@
         </file>
         <file>
             <name>$PROJ_DIR$\libraries\inc\stm8l15x_it.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\libraries\inc\stm8l15x_itc.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\libraries\inc\stm8l15x_spi.h</name>
@@ -1687,6 +1695,9 @@
             <name>$PROJ_DIR$\libraries\src\stm8l15x_clk.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\libraries\src\stm8l15x_dma.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\libraries\src\stm8l15x_exti.c</name>
         </file>
         <file>
@@ -1694,6 +1705,9 @@
         </file>
         <file>
             <name>$PROJ_DIR$\libraries\src\stm8l15x_it.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\libraries\src\stm8l15x_itc.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\libraries\src\stm8l15x_spi.c</name>

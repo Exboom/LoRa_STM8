@@ -1,24 +1,20 @@
-main.pbi: C:\Work\Projects\remote\main.c \
-  C:\Work\Projects\remote\libraries\inc\stm8l15x.h \
-  C:\Work\Projects\remote\libraries\inc/stm8l15x_conf.h \
-  C:\Work\Projects\remote\libraries\inc/stm8l15x.h \
-  C:\Work\Projects\remote\libraries\inc/stm8l15x_adc.h \
-  C:\Work\Projects\remote\libraries\inc/stm8l15x_clk.h \
-  C:\Work\Projects\remote\libraries\inc/stm8l15x_exti.h \
-  C:\Work\Projects\remote\libraries\inc/stm8l15x_gpio.h \
-  C:\Work\Projects\remote\libraries\inc/stm8l15x_spi.h \
-  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
-  C:\Work\Projects\remote\libraries\lora\lora.h \
-  C:\Work\Projects\remote\libraries\inc\stm8l15x_gpio.h \
-  C:\Work\Projects\remote\libraries\inc\stm8l15x_spi.h \
-  C:\Work\Projects\remote\libraries\inc\delay.h \
-  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\math.h \
-  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
-  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ymath.h \
-  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
-  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
-  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8smn.h \
-  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
-  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+main.pbi: C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xtgmath.h \
   C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
-  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xtgmath.h
+  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ymath.h \
+  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\math.h \
+  C:\Work\Projects\remote\libraries\inc\delay.h \
+  C:\Work\Projects\remote\libraries\lora\lora.h \
+  C:\Work\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\Work\Projects\remote\libraries\inc\stm8l15x.h \
+  C:\Work\Projects\remote\libraries\inc\stm8l15x_spi.h \
+  C:\Work\Projects\remote\libraries\inc\stm8l15x_gpio.h \
+  C:\Work\Projects\remote\libraries\inc\stm8l15x_exti.h \
+  C:\Work\Projects\remote\libraries\inc\stm8l15x_clk.h \
+  C:\Work\Projects\remote\libraries\inc\stm8l15x_adc.h \
+  C:\Work\Projects\remote\libraries\inc\stm8l15x_conf.h \
+  C:\Work\Projects\remote\main.c

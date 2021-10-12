@@ -335,16 +335,21 @@ void LoRa_write(uint8_t address, uint8_t value) {
  \* ----------------------------------------------------------------------------- */
 void LoRa_BurstWrite(uint8_t address, uint8_t *value) {
 	uint8_t addr;
+        uint8_t resp;
 	addr = address | 0x80;
 
 	//NSS = 1
         GPIO_ResetBits(LORA_PORT, LORA_NSS_pin);
         //say module thai I want to write in RegFiFo
         while ((SPI1->SR & SPI_FLAG_TXE) == RESET);
-        SPI1->DR = addr;
+        SPI_SendData(LORA_SPI, addr);
+        while ((SPI1->SR & SPI_FLAG_RXNE) == RESET);
+        resp = SPI_ReceiveData(LORA_SPI);
         //Write data in FiFo
         while ((SPI1->SR & SPI_FLAG_TXE) == RESET);
-        SPI1->DR = *value;
+        SPI_SendData(LORA_SPI, *value);
+        while ((SPI1->SR & SPI_FLAG_RXNE) == RESET);
+        resp = SPI_ReceiveData(LORA_SPI);
         
         //NSS = 0
 	GPIO_SetBits(LORA_PORT, LORA_NSS_pin);
@@ -375,11 +380,15 @@ uint8_t LoRa_transmit(LoRa *obj, uint8_t *data, uint8_t length, uint8_t timeout)
 	uint8_t read;
 
 	int mode = obj->current_mode;
+        //standby mode
 	LoRa_gotoMode(obj, STNBY_MODE);
 	read = LoRa_read(RegFiFoTxBaseAddr);
 	LoRa_write(RegFiFoAddPtr, read);
 	LoRa_write(RegPayloadLength, length);
-	LoRa_BurstWrite(RegFiFo, data);
+	for (int i=0; i < length; i++) {
+          LoRa_write(RegFiFo, data[i]);
+        }
+//        LoRa_BurstWrite(RegFiFo, data);
 	LoRa_gotoMode(obj, TRANSMIT_MODE);
 	while (1) {
 		read = LoRa_read(RegIrqFlags);

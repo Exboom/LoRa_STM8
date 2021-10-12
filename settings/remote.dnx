@@ -1,5 +1,29 @@
 <?xml version="1.0"?>
 <settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <DebugChecksum>
+        <Checksum>248295117</Checksum>
+    </DebugChecksum>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
     <InterruptLog>
         <LogEnabled>0</LogEnabled>
         <GraphEnabled>0</GraphEnabled>
@@ -15,17 +39,6 @@
         <SumEnabled>0</SumEnabled>
         <ShowTimeSum>1</ShowTimeSum>
     </DataLog>
-    <Stack>
-        <FillEnabled>0</FillEnabled>
-        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
-        <WarningThreshold>90</WarningThreshold>
-        <SpWarningsEnabled>1</SpWarningsEnabled>
-        <WarnLogOnly>1</WarnLogOnly>
-        <UseTrigger>1</UseTrigger>
-        <TriggerName>main</TriggerName>
-        <LimitSize>0</LimitSize>
-        <ByteLimit>50</ByteLimit>
-    </Stack>
     <Breakpoints2>
         <Count>0</Count>
     </Breakpoints2>
@@ -39,34 +52,16 @@
         <TypeViol>0</TypeViol>
         <Stop>1</Stop>
     </MemConfig>
-    <Trace1>
-        <Enabled>0</Enabled>
-        <ShowSource>1</ShowSource>
-    </Trace1>
     <Simulator>
         <Freq>16000000</Freq>
         <FreqHi>0</FreqHi>
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
-    <DebugChecksum>
-        <Checksum>1834051131</Checksum>
-    </DebugChecksum>
-    <CallStack>
-        <ShowArgs>0</ShowArgs>
-    </CallStack>
-    <Disassembly>
-        <MixedMode>1</MixedMode>
-    </Disassembly>
     <DataSample>
         <LogEnabled>0</LogEnabled>
         <GraphEnabled>0</GraphEnabled>
         <ShowTimeLog>1</ShowTimeLog>
     </DataSample>
-    <Breakpoints>
-        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\libraries\src\stm8l15x_it.c}.168.3" 1 0 0 0 "" 0 ""</Bp0>
-        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\libraries\src\stm8l15x_it.c}.232.3" 1 0 0 0 "" 0 ""</Bp1>
-        <Count>2</Count>
-    </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -76,12 +71,15 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
+    <Breakpoints>
+        <Count>0</Count>
+    </Breakpoints>
     <Aliases>
         <Count>0</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
     <DebuggerSettings>
         <DisableInterruptsWhenStepping>0</DisableInterruptsWhenStepping>
-        <LeaveTargetRunning>1</LeaveTargetRunning>
+        <LeaveTargetRunning>0</LeaveTargetRunning>
     </DebuggerSettings>
 </settings>

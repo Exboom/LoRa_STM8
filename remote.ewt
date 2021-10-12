@@ -2171,6 +2171,9 @@
             <name>$PROJ_DIR$\libraries\inc\stm8l15x_conf.h</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\libraries\inc\stm8l15x_dma.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\libraries\inc\stm8l15x_exti.h</name>
         </file>
         <file>
@@ -2178,6 +2181,9 @@
         </file>
         <file>
             <name>$PROJ_DIR$\libraries\inc\stm8l15x_it.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\libraries\inc\stm8l15x_itc.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\libraries\inc\stm8l15x_spi.h</name>
@@ -2204,6 +2210,9 @@
             <name>$PROJ_DIR$\libraries\src\stm8l15x_clk.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\libraries\src\stm8l15x_dma.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\libraries\src\stm8l15x_exti.c</name>
         </file>
         <file>
@@ -2211,6 +2220,9 @@
         </file>
         <file>
             <name>$PROJ_DIR$\libraries\src\stm8l15x_it.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\libraries\src\stm8l15x_itc.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\libraries\src\stm8l15x_spi.c</name>

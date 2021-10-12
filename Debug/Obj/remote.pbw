@@ -28118,13 +28118,27 @@
     "scope": null
   },
   {
+    "ID": "c:lora.c@11147@F@LoRa_BurstWrite@resp",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "resp",
+    "location": {
+      "column": "17",
+      "line": "338",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
+    },
+    "name": "resp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@LoRa_isvalid",
     "What": "Function",
     "defdec": "Def",
     "display": "uint8_t LoRa_isvalid(void)",
     "location": {
       "column": "9",
-      "line": "359",
+      "line": "364",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "LoRa_isvalid",
@@ -28138,7 +28152,7 @@
     "display": "uint8_t LoRa_transmit(LoRa *, uint8_t *, uint8_t, uint8_t)",
     "location": {
       "column": "9",
-      "line": "374",
+      "line": "379",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "LoRa_transmit",
@@ -28146,13 +28160,13 @@
     "scope": null
   },
   {
-    "ID": "c:lora.c@12567@F@LoRa_transmit@read",
+    "ID": "c:lora.c@12810@F@LoRa_transmit@read",
     "What": "Variable",
     "defdec": "Def",
     "display": "read",
     "location": {
       "column": "10",
-      "line": "375",
+      "line": "380",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "read",
@@ -28160,16 +28174,30 @@
     "scope": null
   },
   {
-    "ID": "c:lora.c@12585@F@LoRa_transmit@mode",
+    "ID": "c:lora.c@12828@F@LoRa_transmit@mode",
     "What": "Variable",
     "defdec": "Def",
     "display": "mode",
     "location": {
       "column": "6",
-      "line": "377",
+      "line": "382",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "mode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.c@13013@F@LoRa_transmit@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "11",
+      "line": "387",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
+    },
+    "name": "i",
     "origin": "project_file",
     "scope": null
   },
@@ -28180,7 +28208,7 @@
     "display": "void LoRa_startReceiving(LoRa *)",
     "location": {
       "column": "6",
-      "line": "408",
+      "line": "417",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "LoRa_startReceiving",
@@ -28194,7 +28222,7 @@
     "display": "uint8_t LoRa_receive(LoRa *, uint8_t *, uint8_t)",
     "location": {
       "column": "9",
-      "line": "421",
+      "line": "430",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "LoRa_receive",
@@ -28202,13 +28230,13 @@
     "scope": null
   },
   {
-    "ID": "c:lora.c@14098@F@LoRa_receive@read",
+    "ID": "c:lora.c@14484@F@LoRa_receive@read",
     "What": "Variable",
     "defdec": "Def",
     "display": "read",
     "location": {
       "column": "10",
-      "line": "422",
+      "line": "431",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "read",
@@ -28216,13 +28244,13 @@
     "scope": null
   },
   {
-    "ID": "c:lora.c@14114@F@LoRa_receive@number_of_bytes",
+    "ID": "c:lora.c@14500@F@LoRa_receive@number_of_bytes",
     "What": "Variable",
     "defdec": "Def",
     "display": "number_of_bytes",
     "location": {
       "column": "10",
-      "line": "423",
+      "line": "432",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "number_of_bytes",
@@ -28230,13 +28258,13 @@
     "scope": null
   },
   {
-    "ID": "c:lora.c@14141@F@LoRa_receive@min",
+    "ID": "c:lora.c@14527@F@LoRa_receive@min",
     "What": "Variable",
     "defdec": "Def",
     "display": "min",
     "location": {
       "column": "10",
-      "line": "424",
+      "line": "433",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "min",
@@ -28244,13 +28272,13 @@
     "scope": null
   },
   {
-    "ID": "c:lora.c@14167@F@LoRa_receive@i",
+    "ID": "c:lora.c@14553@F@LoRa_receive@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "426",
+      "line": "435",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "i",
@@ -28258,13 +28286,13 @@
     "scope": null
   },
   {
-    "ID": "c:lora.c@14538@F@LoRa_receive@i",
+    "ID": "c:lora.c@14924@F@LoRa_receive@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "437",
+      "line": "446",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "i",
@@ -28278,7 +28306,7 @@
     "display": "int LoRa_getRSSI(void)",
     "location": {
       "column": "5",
-      "line": "451",
+      "line": "460",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "LoRa_getRSSI",
@@ -28286,13 +28314,13 @@
     "scope": null
   },
   {
-    "ID": "c:lora.c@15092@F@LoRa_getRSSI@read",
+    "ID": "c:lora.c@15478@F@LoRa_getRSSI@read",
     "What": "Variable",
     "defdec": "Def",
     "display": "read",
     "location": {
       "column": "10",
-      "line": "452",
+      "line": "461",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "read",
@@ -28306,7 +28334,7 @@
     "display": "uint8_t LoRa_init(LoRa *)",
     "location": {
       "column": "9",
-      "line": "464",
+      "line": "473",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "LoRa_init",
@@ -28314,13 +28342,13 @@
     "scope": null
   },
   {
-    "ID": "c:lora.c@15568@F@LoRa_init@data",
+    "ID": "c:lora.c@15954@F@LoRa_init@data",
     "What": "Variable",
     "defdec": "Def",
     "display": "data",
     "location": {
       "column": "10",
-      "line": "465",
+      "line": "474",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "data",
@@ -28328,17 +28356,1601 @@
     "scope": null
   },
   {
-    "ID": "c:lora.c@15584@F@LoRa_init@read",
+    "ID": "c:lora.c@15970@F@LoRa_init@read",
     "What": "Variable",
     "defdec": "Def",
     "display": "read",
     "location": {
       "column": "10",
-      "line": "466",
+      "line": "475",
       "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.c"
     },
     "name": "read",
     "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@187@macro@LORA_LORA_H_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORA_LORA_H_",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LORA_LORA_H_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@211@macro@TRANSMIT_TIMEOUT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TRANSMIT_TIMEOUT",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "TRANSMIT_TIMEOUT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@242@macro@RECEIVE_TIMEOUT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RECEIVE_TIMEOUT",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RECEIVE_TIMEOUT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@306@macro@LORA_MISO_pin",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORA_MISO_pin",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LORA_MISO_pin",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@340@macro@LORA_MOSI_pin",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORA_MOSI_pin",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LORA_MOSI_pin",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@374@macro@LORA_SCK_pin",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORA_SCK_pin",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LORA_SCK_pin",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@407@macro@LORA_NSS_pin",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORA_NSS_pin",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LORA_NSS_pin",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@440@macro@LORA_RESET_pin",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORA_RESET_pin",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LORA_RESET_pin",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@475@macro@LORA_DIO0_pin",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORA_DIO0_pin",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LORA_DIO0_pin",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@509@macro@LORA_PORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORA_PORT",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LORA_PORT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@534@macro@LORA_SPI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORA_SPI",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LORA_SPI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@590@macro@SLEEP_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SLEEP_MODE",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "SLEEP_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@615@macro@STNBY_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STNBY_MODE",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "STNBY_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@640@macro@TRANSMIT_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TRANSMIT_MODE",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "TRANSMIT_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@667@macro@RXCONTIN_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RXCONTIN_MODE",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RXCONTIN_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@694@macro@RXSINGLE_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RXSINGLE_MODE",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RXSINGLE_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@754@macro@BW_7_8KHz",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BW_7_8KHz",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "BW_7_8KHz",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@779@macro@BW_10_4KHz",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BW_10_4KHz",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "BW_10_4KHz",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@804@macro@BW_15_6KHz",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BW_15_6KHz",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "BW_15_6KHz",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@829@macro@BW_20_8KHz",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BW_20_8KHz",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "BW_20_8KHz",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@854@macro@BW_31_25KHz",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BW_31_25KHz",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "BW_31_25KHz",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@880@macro@BW_41_7KHz",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BW_41_7KHz",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "BW_41_7KHz",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@905@macro@BW_62_5KHz",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BW_62_5KHz",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "BW_62_5KHz",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@930@macro@BW_125KHz",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BW_125KHz",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "BW_125KHz",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@955@macro@BW_250KHz",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BW_250KHz",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "BW_250KHz",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@980@macro@BW_500KHz",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BW_500KHz",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "BW_500KHz",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1038@macro@CR_4_5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CR_4_5",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "CR_4_5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1061@macro@CR_4_6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CR_4_6",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "CR_4_6",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1084@macro@CR_4_7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CR_4_7",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "CR_4_7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1107@macro@CR_4_8",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CR_4_8",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "CR_4_8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1163@macro@SF_7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SF_7",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "SF_7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1185@macro@SF_8",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SF_8",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "SF_8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1207@macro@SF_9",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SF_9",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "SF_9",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1229@macro@SF_10",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SF_10",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "SF_10",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1253@macro@SF_11",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SF_11",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "SF_11",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1278@macro@SF_12",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SF_12",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "SF_12",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1334@macro@POWER_11db",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "POWER_11db",
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "POWER_11db",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1362@macro@POWER_14db",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "POWER_14db",
+    "location": {
+      "column": "9",
+      "line": "63",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "POWER_14db",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1390@macro@POWER_17db",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "POWER_17db",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "POWER_17db",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1418@macro@POWER_20db",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "POWER_20db",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "POWER_20db",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1479@macro@RegFiFo",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegFiFo",
+    "location": {
+      "column": "9",
+      "line": "68",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegFiFo",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1508@macro@RegOpMode",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegOpMode",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegOpMode",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1538@macro@RegFrMsb",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegFrMsb",
+    "location": {
+      "column": "9",
+      "line": "70",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegFrMsb",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1567@macro@RegFrMid",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegFrMid",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegFrMid",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1596@macro@RegFrLsb",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegFrLsb",
+    "location": {
+      "column": "9",
+      "line": "72",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegFrLsb",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1625@macro@RegPaConfig",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegPaConfig",
+    "location": {
+      "column": "9",
+      "line": "73",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegPaConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1656@macro@RegOcp",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegOcp",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegOcp",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1684@macro@RegLna",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegLna",
+    "location": {
+      "column": "9",
+      "line": "75",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegLna",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1712@macro@RegFiFoAddPtr",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegFiFoAddPtr",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegFiFoAddPtr",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1744@macro@RegFiFoTxBaseAddr",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegFiFoTxBaseAddr",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegFiFoTxBaseAddr",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1778@macro@RegFiFoRxBaseAddr",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegFiFoRxBaseAddr",
+    "location": {
+      "column": "9",
+      "line": "78",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegFiFoRxBaseAddr",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1812@macro@RegFiFoRxCurrentAddr",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegFiFoRxCurrentAddr",
+    "location": {
+      "column": "9",
+      "line": "79",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegFiFoRxCurrentAddr",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1847@macro@RegIrqFlags",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegIrqFlags",
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegIrqFlags",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1878@macro@RegRxNbBytes",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegRxNbBytes",
+    "location": {
+      "column": "9",
+      "line": "81",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegRxNbBytes",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1909@macro@RegPktRssiValue",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegPktRssiValue",
+    "location": {
+      "column": "9",
+      "line": "82",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegPktRssiValue",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1942@macro@RegModemConfig1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegModemConfig1",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegModemConfig1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@1975@macro@RegModemConfig2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegModemConfig2",
+    "location": {
+      "column": "9",
+      "line": "84",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegModemConfig2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@2008@macro@RegSymbTimeoutL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegSymbTimeoutL",
+    "location": {
+      "column": "9",
+      "line": "85",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegSymbTimeoutL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@2041@macro@RegPreambleMsb",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegPreambleMsb",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegPreambleMsb",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@2073@macro@RegPreambleLsb",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegPreambleLsb",
+    "location": {
+      "column": "9",
+      "line": "87",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegPreambleLsb",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@2105@macro@RegPayloadLength",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegPayloadLength",
+    "location": {
+      "column": "9",
+      "line": "88",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegPayloadLength",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@2138@macro@RegDioMapping1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegDioMapping1",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegDioMapping1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@2170@macro@RegDioMapping2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegDioMapping2",
+    "location": {
+      "column": "9",
+      "line": "90",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegDioMapping2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@2202@macro@RegVersion",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RegVersion",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "RegVersion",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@2265@macro@LORA_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORA_OK",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LORA_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@2292@macro@LORA_NOT_FOUND",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORA_NOT_FOUND",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LORA_NOT_FOUND",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@2322@macro@LORA_LARGE_PAYLOAD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORA_LARGE_PAYLOAD",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LORA_LARGE_PAYLOAD",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:lora.h@2354@macro@LORA_UNAVAILABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LORA_UNAVAILABLE",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LORA_UNAVAILABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@LoRa_setting",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "LoRa_setting",
+    "location": {
+      "column": "16",
+      "line": "99",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@LoRa_setting@FI@current_mode",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "current_mode",
+        "location": {
+          "column": "6",
+          "line": "119",
+          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+        },
+        "name": "current_mode",
+        "origin": "user_include",
+        "scope": "LoRa_setting"
+      },
+      {
+        "ID": "c:@S@LoRa_setting@FI@frequency",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "frequency",
+        "location": {
+          "column": "6",
+          "line": "120",
+          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+        },
+        "name": "frequency",
+        "origin": "user_include",
+        "scope": "LoRa_setting"
+      },
+      {
+        "ID": "c:@S@LoRa_setting@FI@spredingFactor",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "spredingFactor",
+        "location": {
+          "column": "10",
+          "line": "121",
+          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+        },
+        "name": "spredingFactor",
+        "origin": "user_include",
+        "scope": "LoRa_setting"
+      },
+      {
+        "ID": "c:@S@LoRa_setting@FI@bandWidth",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "bandWidth",
+        "location": {
+          "column": "10",
+          "line": "122",
+          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+        },
+        "name": "bandWidth",
+        "origin": "user_include",
+        "scope": "LoRa_setting"
+      },
+      {
+        "ID": "c:@S@LoRa_setting@FI@crcRate",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "crcRate",
+        "location": {
+          "column": "10",
+          "line": "123",
+          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+        },
+        "name": "crcRate",
+        "origin": "user_include",
+        "scope": "LoRa_setting"
+      },
+      {
+        "ID": "c:@S@LoRa_setting@FI@preamble",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "preamble",
+        "location": {
+          "column": "10",
+          "line": "124",
+          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+        },
+        "name": "preamble",
+        "origin": "user_include",
+        "scope": "LoRa_setting"
+      },
+      {
+        "ID": "c:@S@LoRa_setting@FI@power",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "power",
+        "location": {
+          "column": "10",
+          "line": "125",
+          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+        },
+        "name": "power",
+        "origin": "user_include",
+        "scope": "LoRa_setting"
+      },
+      {
+        "ID": "c:@S@LoRa_setting@FI@overCurrentProtection",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "overCurrentProtection",
+        "location": {
+          "column": "10",
+          "line": "126",
+          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+        },
+        "name": "overCurrentProtection",
+        "origin": "user_include",
+        "scope": "LoRa_setting"
+      },
+      {
+        "ID": "c:lora.h@T@LoRa",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct LoRa_setting",
+        "location": {
+          "column": "3",
+          "line": "128",
+          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+        },
+        "name": "LoRa",
+        "origin": "user_include",
+        "scope": "LoRa_setting"
+      }
+    ],
+    "name": "LoRa_setting",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@newLoRa",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "LoRa newLoRa(void)",
+    "location": {
+      "column": "6",
+      "line": "130",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "newLoRa",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@newLoRa",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "LoRa newLoRa(void)",
+    "location": {
+      "column": "6",
+      "line": "130",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "newLoRa",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_reset",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_reset(void)",
+    "location": {
+      "column": "6",
+      "line": "131",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_reset",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_reset",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_reset(void)",
+    "location": {
+      "column": "6",
+      "line": "131",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_reset",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_gotoMode",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_gotoMode(LoRa *, int)",
+    "location": {
+      "column": "6",
+      "line": "134",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_gotoMode",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_gotoMode",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_gotoMode(LoRa *, int)",
+    "location": {
+      "column": "6",
+      "line": "134",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_gotoMode",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_read",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t LoRa_read(uint8_t)",
+    "location": {
+      "column": "9",
+      "line": "135",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_read",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_read",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t LoRa_read(uint8_t)",
+    "location": {
+      "column": "9",
+      "line": "135",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_read",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_write",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_write(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "136",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_write",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_write",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_write(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "136",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_write",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_BurstWrite",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_BurstWrite(uint8_t, uint8_t *)",
+    "location": {
+      "column": "6",
+      "line": "137",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_BurstWrite",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_BurstWrite",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_BurstWrite(uint8_t, uint8_t *)",
+    "location": {
+      "column": "6",
+      "line": "137",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_BurstWrite",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_isvalid",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t LoRa_isvalid(void)",
+    "location": {
+      "column": "9",
+      "line": "138",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_isvalid",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_isvalid",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t LoRa_isvalid(void)",
+    "location": {
+      "column": "9",
+      "line": "138",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_isvalid",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_setFrequency",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_setFrequency(int)",
+    "location": {
+      "column": "6",
+      "line": "140",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_setFrequency",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_setFrequency",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_setFrequency(int)",
+    "location": {
+      "column": "6",
+      "line": "140",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_setFrequency",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_setSpreadingFactor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_setSpreadingFactor(int)",
+    "location": {
+      "column": "6",
+      "line": "141",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_setSpreadingFactor",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_setSpreadingFactor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_setSpreadingFactor(int)",
+    "location": {
+      "column": "6",
+      "line": "141",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_setSpreadingFactor",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_setPower",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_setPower(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "142",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_setPower",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_setPower",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_setPower(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "142",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_setPower",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_setOCP",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_setOCP(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "143",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_setOCP",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_setOCP",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_setOCP(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "143",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_setOCP",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_setTOMsb_setCRCon",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_setTOMsb_setCRCon(void)",
+    "location": {
+      "column": "6",
+      "line": "144",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_setTOMsb_setCRCon",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_setTOMsb_setCRCon",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_setTOMsb_setCRCon(void)",
+    "location": {
+      "column": "6",
+      "line": "144",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_setTOMsb_setCRCon",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_transmit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t LoRa_transmit(LoRa *, uint8_t *, uint8_t, uint8_t)",
+    "location": {
+      "column": "9",
+      "line": "145",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_transmit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_transmit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t LoRa_transmit(LoRa *, uint8_t *, uint8_t, uint8_t)",
+    "location": {
+      "column": "9",
+      "line": "145",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_transmit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_startReceiving",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_startReceiving(LoRa *)",
+    "location": {
+      "column": "6",
+      "line": "146",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_startReceiving",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_startReceiving",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_startReceiving(LoRa *)",
+    "location": {
+      "column": "6",
+      "line": "146",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_startReceiving",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_receive",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t LoRa_receive(LoRa *, uint8_t *, uint8_t)",
+    "location": {
+      "column": "9",
+      "line": "147",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_receive",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_receive",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t LoRa_receive(LoRa *, uint8_t *, uint8_t)",
+    "location": {
+      "column": "9",
+      "line": "147",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_receive",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_receive_IT",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LoRa_receive_IT(LoRa *, uint8_t *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "148",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_receive_IT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_getRSSI",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int LoRa_getRSSI(void)",
+    "location": {
+      "column": "5",
+      "line": "149",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_getRSSI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_getRSSI",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int LoRa_getRSSI(void)",
+    "location": {
+      "column": "5",
+      "line": "149",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_getRSSI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t LoRa_init(LoRa *)",
+    "location": {
+      "column": "9",
+      "line": "151",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LoRa_init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t LoRa_init(LoRa *)",
+    "location": {
+      "column": "9",
+      "line": "151",
+      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
+    },
+    "name": "LoRa_init",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -30620,1590 +32232,6 @@
       "path": "C:\\Work\\Projects\\remote\\libraries\\inc\\stm8l15x_gpio.h"
     },
     "name": "GPIO_ReadOutputDataBit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@187@macro@LORA_LORA_H_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORA_LORA_H_",
-    "location": {
-      "column": "9",
-      "line": "13",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LORA_LORA_H_",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@211@macro@TRANSMIT_TIMEOUT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TRANSMIT_TIMEOUT",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "TRANSMIT_TIMEOUT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@242@macro@RECEIVE_TIMEOUT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RECEIVE_TIMEOUT",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RECEIVE_TIMEOUT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@306@macro@LORA_MISO_pin",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORA_MISO_pin",
-    "location": {
-      "column": "9",
-      "line": "19",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LORA_MISO_pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@340@macro@LORA_MOSI_pin",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORA_MOSI_pin",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LORA_MOSI_pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@374@macro@LORA_SCK_pin",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORA_SCK_pin",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LORA_SCK_pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@407@macro@LORA_NSS_pin",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORA_NSS_pin",
-    "location": {
-      "column": "9",
-      "line": "22",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LORA_NSS_pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@440@macro@LORA_RESET_pin",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORA_RESET_pin",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LORA_RESET_pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@475@macro@LORA_DIO0_pin",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORA_DIO0_pin",
-    "location": {
-      "column": "9",
-      "line": "24",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LORA_DIO0_pin",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@509@macro@LORA_PORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORA_PORT",
-    "location": {
-      "column": "9",
-      "line": "25",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LORA_PORT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@534@macro@LORA_SPI",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORA_SPI",
-    "location": {
-      "column": "9",
-      "line": "26",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LORA_SPI",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@590@macro@SLEEP_MODE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SLEEP_MODE",
-    "location": {
-      "column": "9",
-      "line": "29",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "SLEEP_MODE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@615@macro@STNBY_MODE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "STNBY_MODE",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "STNBY_MODE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@640@macro@TRANSMIT_MODE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TRANSMIT_MODE",
-    "location": {
-      "column": "9",
-      "line": "31",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "TRANSMIT_MODE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@667@macro@RXCONTIN_MODE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RXCONTIN_MODE",
-    "location": {
-      "column": "9",
-      "line": "32",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RXCONTIN_MODE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@694@macro@RXSINGLE_MODE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RXSINGLE_MODE",
-    "location": {
-      "column": "9",
-      "line": "33",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RXSINGLE_MODE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@754@macro@BW_7_8KHz",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BW_7_8KHz",
-    "location": {
-      "column": "9",
-      "line": "36",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "BW_7_8KHz",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@779@macro@BW_10_4KHz",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BW_10_4KHz",
-    "location": {
-      "column": "9",
-      "line": "37",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "BW_10_4KHz",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@804@macro@BW_15_6KHz",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BW_15_6KHz",
-    "location": {
-      "column": "9",
-      "line": "38",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "BW_15_6KHz",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@829@macro@BW_20_8KHz",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BW_20_8KHz",
-    "location": {
-      "column": "9",
-      "line": "39",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "BW_20_8KHz",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@854@macro@BW_31_25KHz",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BW_31_25KHz",
-    "location": {
-      "column": "9",
-      "line": "40",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "BW_31_25KHz",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@880@macro@BW_41_7KHz",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BW_41_7KHz",
-    "location": {
-      "column": "9",
-      "line": "41",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "BW_41_7KHz",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@905@macro@BW_62_5KHz",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BW_62_5KHz",
-    "location": {
-      "column": "9",
-      "line": "42",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "BW_62_5KHz",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@930@macro@BW_125KHz",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BW_125KHz",
-    "location": {
-      "column": "9",
-      "line": "43",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "BW_125KHz",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@955@macro@BW_250KHz",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BW_250KHz",
-    "location": {
-      "column": "9",
-      "line": "44",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "BW_250KHz",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@980@macro@BW_500KHz",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BW_500KHz",
-    "location": {
-      "column": "9",
-      "line": "45",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "BW_500KHz",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1038@macro@CR_4_5",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CR_4_5",
-    "location": {
-      "column": "9",
-      "line": "48",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "CR_4_5",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1061@macro@CR_4_6",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CR_4_6",
-    "location": {
-      "column": "9",
-      "line": "49",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "CR_4_6",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1084@macro@CR_4_7",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CR_4_7",
-    "location": {
-      "column": "9",
-      "line": "50",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "CR_4_7",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1107@macro@CR_4_8",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CR_4_8",
-    "location": {
-      "column": "9",
-      "line": "51",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "CR_4_8",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1163@macro@SF_7",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SF_7",
-    "location": {
-      "column": "9",
-      "line": "54",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "SF_7",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1185@macro@SF_8",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SF_8",
-    "location": {
-      "column": "9",
-      "line": "55",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "SF_8",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1207@macro@SF_9",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SF_9",
-    "location": {
-      "column": "9",
-      "line": "56",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "SF_9",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1229@macro@SF_10",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SF_10",
-    "location": {
-      "column": "9",
-      "line": "57",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "SF_10",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1253@macro@SF_11",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SF_11",
-    "location": {
-      "column": "9",
-      "line": "58",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "SF_11",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1278@macro@SF_12",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SF_12",
-    "location": {
-      "column": "9",
-      "line": "59",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "SF_12",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1334@macro@POWER_11db",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "POWER_11db",
-    "location": {
-      "column": "9",
-      "line": "62",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "POWER_11db",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1362@macro@POWER_14db",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "POWER_14db",
-    "location": {
-      "column": "9",
-      "line": "63",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "POWER_14db",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1390@macro@POWER_17db",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "POWER_17db",
-    "location": {
-      "column": "9",
-      "line": "64",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "POWER_17db",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1418@macro@POWER_20db",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "POWER_20db",
-    "location": {
-      "column": "9",
-      "line": "65",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "POWER_20db",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1479@macro@RegFiFo",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegFiFo",
-    "location": {
-      "column": "9",
-      "line": "68",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegFiFo",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1508@macro@RegOpMode",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegOpMode",
-    "location": {
-      "column": "9",
-      "line": "69",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegOpMode",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1538@macro@RegFrMsb",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegFrMsb",
-    "location": {
-      "column": "9",
-      "line": "70",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegFrMsb",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1567@macro@RegFrMid",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegFrMid",
-    "location": {
-      "column": "9",
-      "line": "71",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegFrMid",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1596@macro@RegFrLsb",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegFrLsb",
-    "location": {
-      "column": "9",
-      "line": "72",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegFrLsb",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1625@macro@RegPaConfig",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegPaConfig",
-    "location": {
-      "column": "9",
-      "line": "73",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegPaConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1656@macro@RegOcp",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegOcp",
-    "location": {
-      "column": "9",
-      "line": "74",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegOcp",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1684@macro@RegLna",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegLna",
-    "location": {
-      "column": "9",
-      "line": "75",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegLna",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1712@macro@RegFiFoAddPtr",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegFiFoAddPtr",
-    "location": {
-      "column": "9",
-      "line": "76",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegFiFoAddPtr",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1744@macro@RegFiFoTxBaseAddr",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegFiFoTxBaseAddr",
-    "location": {
-      "column": "9",
-      "line": "77",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegFiFoTxBaseAddr",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1778@macro@RegFiFoRxBaseAddr",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegFiFoRxBaseAddr",
-    "location": {
-      "column": "9",
-      "line": "78",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegFiFoRxBaseAddr",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1812@macro@RegFiFoRxCurrentAddr",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegFiFoRxCurrentAddr",
-    "location": {
-      "column": "9",
-      "line": "79",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegFiFoRxCurrentAddr",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1847@macro@RegIrqFlags",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegIrqFlags",
-    "location": {
-      "column": "9",
-      "line": "80",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegIrqFlags",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1878@macro@RegRxNbBytes",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegRxNbBytes",
-    "location": {
-      "column": "9",
-      "line": "81",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegRxNbBytes",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1909@macro@RegPktRssiValue",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegPktRssiValue",
-    "location": {
-      "column": "9",
-      "line": "82",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegPktRssiValue",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1942@macro@RegModemConfig1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegModemConfig1",
-    "location": {
-      "column": "9",
-      "line": "83",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegModemConfig1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@1975@macro@RegModemConfig2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegModemConfig2",
-    "location": {
-      "column": "9",
-      "line": "84",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegModemConfig2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@2008@macro@RegSymbTimeoutL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegSymbTimeoutL",
-    "location": {
-      "column": "9",
-      "line": "85",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegSymbTimeoutL",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@2041@macro@RegPreambleMsb",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegPreambleMsb",
-    "location": {
-      "column": "9",
-      "line": "86",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegPreambleMsb",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@2073@macro@RegPreambleLsb",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegPreambleLsb",
-    "location": {
-      "column": "9",
-      "line": "87",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegPreambleLsb",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@2105@macro@RegPayloadLength",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegPayloadLength",
-    "location": {
-      "column": "9",
-      "line": "88",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegPayloadLength",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@2138@macro@RegDioMapping1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegDioMapping1",
-    "location": {
-      "column": "9",
-      "line": "89",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegDioMapping1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@2170@macro@RegDioMapping2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegDioMapping2",
-    "location": {
-      "column": "9",
-      "line": "90",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegDioMapping2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@2202@macro@RegVersion",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RegVersion",
-    "location": {
-      "column": "9",
-      "line": "91",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "RegVersion",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@2265@macro@LORA_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORA_OK",
-    "location": {
-      "column": "9",
-      "line": "94",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LORA_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@2292@macro@LORA_NOT_FOUND",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORA_NOT_FOUND",
-    "location": {
-      "column": "9",
-      "line": "95",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LORA_NOT_FOUND",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@2322@macro@LORA_LARGE_PAYLOAD",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORA_LARGE_PAYLOAD",
-    "location": {
-      "column": "9",
-      "line": "96",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LORA_LARGE_PAYLOAD",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:lora.h@2354@macro@LORA_UNAVAILABLE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LORA_UNAVAILABLE",
-    "location": {
-      "column": "9",
-      "line": "97",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LORA_UNAVAILABLE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@S@LoRa_setting",
-    "What": "Struct",
-    "defdec": "Def",
-    "display": "LoRa_setting",
-    "location": {
-      "column": "16",
-      "line": "99",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "members": [
-      {
-        "ID": "c:@S@LoRa_setting@FI@current_mode",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "current_mode",
-        "location": {
-          "column": "6",
-          "line": "119",
-          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-        },
-        "name": "current_mode",
-        "origin": "user_include",
-        "scope": "LoRa_setting"
-      },
-      {
-        "ID": "c:@S@LoRa_setting@FI@frequency",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "frequency",
-        "location": {
-          "column": "6",
-          "line": "120",
-          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-        },
-        "name": "frequency",
-        "origin": "user_include",
-        "scope": "LoRa_setting"
-      },
-      {
-        "ID": "c:@S@LoRa_setting@FI@spredingFactor",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "spredingFactor",
-        "location": {
-          "column": "10",
-          "line": "121",
-          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-        },
-        "name": "spredingFactor",
-        "origin": "user_include",
-        "scope": "LoRa_setting"
-      },
-      {
-        "ID": "c:@S@LoRa_setting@FI@bandWidth",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "bandWidth",
-        "location": {
-          "column": "10",
-          "line": "122",
-          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-        },
-        "name": "bandWidth",
-        "origin": "user_include",
-        "scope": "LoRa_setting"
-      },
-      {
-        "ID": "c:@S@LoRa_setting@FI@crcRate",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "crcRate",
-        "location": {
-          "column": "10",
-          "line": "123",
-          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-        },
-        "name": "crcRate",
-        "origin": "user_include",
-        "scope": "LoRa_setting"
-      },
-      {
-        "ID": "c:@S@LoRa_setting@FI@preamble",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "preamble",
-        "location": {
-          "column": "10",
-          "line": "124",
-          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-        },
-        "name": "preamble",
-        "origin": "user_include",
-        "scope": "LoRa_setting"
-      },
-      {
-        "ID": "c:@S@LoRa_setting@FI@power",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "power",
-        "location": {
-          "column": "10",
-          "line": "125",
-          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-        },
-        "name": "power",
-        "origin": "user_include",
-        "scope": "LoRa_setting"
-      },
-      {
-        "ID": "c:@S@LoRa_setting@FI@overCurrentProtection",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "overCurrentProtection",
-        "location": {
-          "column": "10",
-          "line": "126",
-          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-        },
-        "name": "overCurrentProtection",
-        "origin": "user_include",
-        "scope": "LoRa_setting"
-      },
-      {
-        "ID": "c:lora.h@T@LoRa",
-        "What": "TypedefDecl",
-        "defdec": "Def",
-        "display": "struct LoRa_setting",
-        "location": {
-          "column": "3",
-          "line": "128",
-          "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-        },
-        "name": "LoRa",
-        "origin": "user_include",
-        "scope": "LoRa_setting"
-      }
-    ],
-    "name": "LoRa_setting",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@newLoRa",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "LoRa newLoRa(void)",
-    "location": {
-      "column": "6",
-      "line": "130",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "newLoRa",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@newLoRa",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "LoRa newLoRa(void)",
-    "location": {
-      "column": "6",
-      "line": "130",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "newLoRa",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_reset",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_reset(void)",
-    "location": {
-      "column": "6",
-      "line": "131",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_reset",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_reset",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_reset(void)",
-    "location": {
-      "column": "6",
-      "line": "131",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_reset",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_gotoMode",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_gotoMode(LoRa *, int)",
-    "location": {
-      "column": "6",
-      "line": "134",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_gotoMode",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_gotoMode",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_gotoMode(LoRa *, int)",
-    "location": {
-      "column": "6",
-      "line": "134",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_gotoMode",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_read",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t LoRa_read(uint8_t)",
-    "location": {
-      "column": "9",
-      "line": "135",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_read",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_read",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t LoRa_read(uint8_t)",
-    "location": {
-      "column": "9",
-      "line": "135",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_read",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_write",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_write(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "136",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_write",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_write",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_write(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "136",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_write",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_BurstWrite",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_BurstWrite(uint8_t, uint8_t *)",
-    "location": {
-      "column": "6",
-      "line": "137",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_BurstWrite",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_BurstWrite",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_BurstWrite(uint8_t, uint8_t *)",
-    "location": {
-      "column": "6",
-      "line": "137",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_BurstWrite",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_isvalid",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t LoRa_isvalid(void)",
-    "location": {
-      "column": "9",
-      "line": "138",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_isvalid",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_isvalid",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t LoRa_isvalid(void)",
-    "location": {
-      "column": "9",
-      "line": "138",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_isvalid",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_setFrequency",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_setFrequency(int)",
-    "location": {
-      "column": "6",
-      "line": "140",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_setFrequency",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_setFrequency",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_setFrequency(int)",
-    "location": {
-      "column": "6",
-      "line": "140",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_setFrequency",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_setSpreadingFactor",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_setSpreadingFactor(int)",
-    "location": {
-      "column": "6",
-      "line": "141",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_setSpreadingFactor",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_setSpreadingFactor",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_setSpreadingFactor(int)",
-    "location": {
-      "column": "6",
-      "line": "141",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_setSpreadingFactor",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_setPower",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_setPower(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "142",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_setPower",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_setPower",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_setPower(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "142",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_setPower",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_setOCP",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_setOCP(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "143",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_setOCP",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_setOCP",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_setOCP(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "143",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_setOCP",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_setTOMsb_setCRCon",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_setTOMsb_setCRCon(void)",
-    "location": {
-      "column": "6",
-      "line": "144",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_setTOMsb_setCRCon",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_setTOMsb_setCRCon",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_setTOMsb_setCRCon(void)",
-    "location": {
-      "column": "6",
-      "line": "144",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_setTOMsb_setCRCon",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_transmit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t LoRa_transmit(LoRa *, uint8_t *, uint8_t, uint8_t)",
-    "location": {
-      "column": "9",
-      "line": "145",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_transmit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_transmit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t LoRa_transmit(LoRa *, uint8_t *, uint8_t, uint8_t)",
-    "location": {
-      "column": "9",
-      "line": "145",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_transmit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_startReceiving",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_startReceiving(LoRa *)",
-    "location": {
-      "column": "6",
-      "line": "146",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_startReceiving",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_startReceiving",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_startReceiving(LoRa *)",
-    "location": {
-      "column": "6",
-      "line": "146",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_startReceiving",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_receive",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t LoRa_receive(LoRa *, uint8_t *, uint8_t)",
-    "location": {
-      "column": "9",
-      "line": "147",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_receive",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_receive",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t LoRa_receive(LoRa *, uint8_t *, uint8_t)",
-    "location": {
-      "column": "9",
-      "line": "147",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_receive",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_receive_IT",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LoRa_receive_IT(LoRa *, uint8_t *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "148",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_receive_IT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_getRSSI",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int LoRa_getRSSI(void)",
-    "location": {
-      "column": "5",
-      "line": "149",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_getRSSI",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_getRSSI",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int LoRa_getRSSI(void)",
-    "location": {
-      "column": "5",
-      "line": "149",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_getRSSI",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t LoRa_init(LoRa *)",
-    "location": {
-      "column": "9",
-      "line": "151",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LoRa_init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t LoRa_init(LoRa *)",
-    "location": {
-      "column": "9",
-      "line": "151",
-      "path": "C:\\Work\\Projects\\remote\\libraries\\lora\\lora.h"
-    },
-    "name": "LoRa_init",
     "origin": "user_include",
     "scope": null
   },
@@ -40554,7 +40582,7 @@
     "display": "void joystick_cmd(LoRa *)",
     "location": {
       "column": "6",
-      "line": "142",
+      "line": "146",
       "path": "C:\\Work\\Projects\\remote\\main.c"
     },
     "name": "joystick_cmd",
@@ -40562,13 +40590,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4267@F@joystick_cmd@data",
+    "ID": "c:main.c@4347@F@joystick_cmd@data",
     "What": "Variable",
     "defdec": "Def",
     "display": "data",
     "location": {
       "column": "11",
-      "line": "143",
+      "line": "147",
       "path": "C:\\Work\\Projects\\remote\\main.c"
     },
     "name": "data",
